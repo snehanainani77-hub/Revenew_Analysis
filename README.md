@@ -1,4 +1,4 @@
-# Revenew_Analysis
+## Revenew_Analysis
 Sales data analysis project using SQL, Excel, and Tableau.
 BikeStores Sales Analysis
 
@@ -8,7 +8,7 @@ This project analyzes BikeStores sales data using SQL, Excel, and Tableau. The o
 
 The project demonstrates the complete data analysis workflow, including data extraction using SQL and data visualization using Excel and Tableau.
 
-Tools Used
+## Tools Used
 
 - SQL Server Management Studio (SSMS)
 - Microsoft SQL
@@ -16,7 +16,7 @@ Tools Used
 - Tableau
 - GitHub
 
-SQL Data Analysis
+## SQL Data Analysis
 
 SQL was used to extract and combine data from multiple tables in the BikeStores database.
 
@@ -33,7 +33,7 @@ The analysis uses the following tables:
 
 The SQL query uses "JOIN" operations to combine data from multiple tables and calculate important sales metrics.
 
-Key Data Extracted
+## Key Data Extracted
 
 - Order ID
 - Customer Name
@@ -47,7 +47,7 @@ Key Data Extracted
 - Store Name
 - Sales Representative
 
-SQL Query
+## SQL Query
 
 USE BikeStores;
 
@@ -100,19 +100,19 @@ GROUP BY
     sto.store_name,
     CONCAT(sta.first_name, ' ', sta.last_name);
 
-Excel Dashboard
+## Excel Dashboard
 
 The extracted data was exported to Microsoft Excel for further analysis and visualization.
 
 The Excel dashboard was created to analyze sales performance and present key insights using charts and interactive elements.
 
-Tableau Dashboard
+## Tableau Dashboard
 
 A Tableau dashboard was also created to visualize the BikeStores sales data.
 
 The dashboard provides an interactive view of sales performance and helps analyze data across different categories, products, locations, stores, and sales representatives.
 
-Project Workflow
+## Project Workflow
 
 1. Extracted and combined data from the BikeStores database using SQL.
 2. Used SQL JOIN operations to combine multiple tables.
@@ -123,7 +123,7 @@ Project Workflow
 
 
 
-Skills Demonstrated
+## Skills Demonstrated
 
 - SQL
 - SQL JOINs
@@ -135,6 +135,3 @@ Skills Demonstrated
 - Data Visualization
 - Dashboard Creation
 
-Author
-
-Sneha Nainani
