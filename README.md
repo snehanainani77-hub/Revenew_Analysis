@@ -2,7 +2,7 @@
 Sales data analysis project using SQL, Excel, and Tableau.
 BikeStores Sales Analysis
 
-Project Overview
+## Project Overview
 
 This project analyzes BikeStores sales data using SQL, Excel, and Tableau. The objective of the project is to extract and analyze sales information and present meaningful insights through interactive dashboards.
 
@@ -105,6 +105,8 @@ GROUP BY
 The extracted data was exported to Microsoft Excel for further analysis and visualization.
 
 The Excel dashboard was created to analyze sales performance and present key insights using charts and interactive elements.
+
+![Revenue Analysis Dashboard](Dashboard.png)
 
 ## Tableau Dashboard
 
