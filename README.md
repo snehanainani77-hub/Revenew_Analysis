@@ -1,12 +1,20 @@
 ## Revenew_Analysis
-Sales data analysis project using SQL, Excel, and Tableau.
-BikeStores Sales Analysis
+A data analytics project using SQL, Excel, and Tableau to analyze BikeStores sales performance, revenue trends, customers, products, stores, and sales representatives.
 
 ## Project Overview
 
 This project analyzes BikeStores sales data using SQL, Excel, and Tableau. The objective of the project is to extract and analyze sales information and present meaningful insights through interactive dashboards.
 
 The project demonstrates the complete data analysis workflow, including data extraction using SQL and data visualization using Excel and Tableau.
+
+## Project Objectives
+
+- Analyze overall revenue performance
+- Identify revenue trends across years and months
+- Analyze revenue by state, store, brand, and product category
+- Identify top customers based on revenue
+- Compare sales representative performance
+- Build interactive dashboards for data visualization
 
 ## Tools Used
 
@@ -104,15 +112,34 @@ GROUP BY
 
 The extracted data was exported to Microsoft Excel for further analysis and visualization.
 
+The Excel dashboard analyzes:
+
+- Revenue by year
+- Revenue by month
+- Revenue by state
+- Revenue by store
+- Revenue by brand
+- Revenue by category
+- Top 10 customers
+- Revenue by sales representative
+
 The Excel dashboard was created to analyze sales performance and present key insights using charts and interactive elements.
 
 ![Revenue Analysis Dashboard](Dashboard.png)
 
 ## Tableau Dashboard
 
-A Tableau dashboard was also created to visualize the BikeStores sales data.
+A Tableau dashboard was created to provide interactive visualizations of BikeStores sales performance.
 
-The dashboard provides an interactive view of sales performance and helps analyze data across different categories, products, locations, stores, and sales representatives.
+The dashboard analyzes revenue across:
+
+- Time periods
+- States
+- Stores
+- Product brands
+- Product categories
+- Customers
+- Sales representatives
 
 ## Project Workflow
 
@@ -123,11 +150,19 @@ The dashboard provides an interactive view of sales performance and helps analyz
 5. Created an interactive dashboard in Microsoft Excel.
 6. Created a Tableau dashboard for additional data visualization and analysis.
 
+## Business Insights
+
+- Revenue performance varied across different years and months.
+- The analysis identified differences in revenue contribution across states and stores.
+- Product brands and categories showed different levels of revenue contribution.
+- The Top 10 Customers analysis identified customers contributing significantly to overall revenue.
+- Revenue performance varied across sales representatives.
+- Interactive Excel and Tableau dashboards made it easier to explore revenue performance across different business dimensions.
 
 
 ## Skills Demonstrated
 
-- SQL
+- SQL data extraction and transformation
 - SQL JOINs
 - Data Extraction
 - Data Aggregation
@@ -136,4 +171,13 @@ The dashboard provides an interactive view of sales performance and helps analyz
 - Tableau
 - Data Visualization
 - Dashboard Creation
+- KPI analysis
+- Business insight generation
 
+## Project files 
+- 'bikerstore project 1.xlsx' - Excel Analysis
+- 'bikestores revenue analysis.twb' - Tableau Dashboard
+
+## Conclusion
+
+This project demonstrates an end-to-end data analytics workflow, from extracting and combining data using SQL to analyzing the data in Excel and creating interactive visualizations in Tableau. The dashboards provide a consolidated view of revenue performance across customers, products, locations, stores, and sales representatives.
